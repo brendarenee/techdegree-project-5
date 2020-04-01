@@ -31,6 +31,6 @@ $('.search-bar').on('keyup', 'input', function() {
       $(this).show();
     } else {
       $(this).hide();
-    };
+    }
   });
 });
