@@ -4,7 +4,8 @@ lightbox.option({
   'maxWidth': 800,
   'maxHeight': 500,
   'showImageNumberLabel': false,
-  'wrapAround': true
+  'wrapAround': true,
+  'fitImagesInViewport': true
 });
 
 //
