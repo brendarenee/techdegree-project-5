@@ -22,7 +22,7 @@ $('.search-bar').on('keyup', 'input', function() {
 
 // Iterate through images to test RegExp against each caption
 
-  lightboxImages.each(function(index){
+  lightboxImages.each(function(){
     let caption = $(this).attr('data-title');
     if (regexSearchTerm.test(caption)) {
 
